@@ -1,0 +1,25 @@
+From ffa76d4bc4dd6447100bb206ed65e62a06b54b9e Mon Sep 17 00:00:00 2001
+From: Your Name <you@example.com>
+Date: Thu, 17 Mar 2022 10:38:50 +0000
+Subject: [PATCH] change from meta-custom
+
+---
+ hello-auto.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello-auto.c b/hello-auto.c
+index b53f51d..825b83e 100644
+--- a/hello-auto.c
++++ b/hello-auto.c
+@@ -2,7 +2,7 @@
+ 
+ int main()
+ {
+-	printf("Hello Autotools!\n");
++	printf("Hello Autotools from append recipe in meta-custom!\n");
+ 	return 0;
+ }
+            
+-- 
+2.25.1
+

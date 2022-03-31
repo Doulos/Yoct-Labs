@@ -1,0 +1,10 @@
+#!/bin/sh
+TEST="Hello World from YOCTO!"
+
+OP=$(hello-world)
+
+if [[ "$OP" == "$TEST" ]]; then
+    echo "Test passed"
+else
+    echo "Test failed"
+fi

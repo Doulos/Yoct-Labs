@@ -1,0 +1,25 @@
+From 5b95cbc99e282e62a677c4ca02df89c8a004aaa7 Mon Sep 17 00:00:00 2001
+From: Your Name <you@example.com>
+Date: Thu, 10 Feb 2022 08:02:06 +0000
+Subject: [PATCH] reduced hash memory
+
+---
+ src/gnuchess.ini | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/gnuchess.ini b/src/gnuchess.ini
+index a6de47b..6206ef6 100644
+--- a/src/gnuchess.ini
++++ b/src/gnuchess.ini
+@@ -13,7 +13,7 @@ BookFile = smallbook.bin
+ 
+ # standard UCI options
+ 
+-Hash = 256 # in MB
++Hash = 64 # in MB
+ 
+ NalimovCache = 16 # in MB
+ 
+-- 
+2.25.1
+

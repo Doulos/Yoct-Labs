@@ -1,0 +1,15 @@
+This isn't the license file itself. 
+This file states under which license the code has been released.
+
+The 'LICENSE = "GPLv2"' variable in the recipe file will automatically choose a GPL v2 license from meta/files/common-licenses
+
+Both this COPYING file together with a generic_GPLv2 will be saved in this package's license deploy directorty:
+
+tmp/deploy/licenses/hello-world/
+                    |-- COPYING
+                    `-- generic_GPLv2
+
+
+
+
+
